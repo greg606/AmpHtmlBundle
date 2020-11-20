@@ -5,6 +5,7 @@
     "keywords": ["amphtml", "amp-html", "amp", "google", "html"],
     "license":"MIT",
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Rafał Muszyński",
@@ -12,13 +13,13 @@
         }
     ],
     "require": {
-        "php": "^7.1",
+        "php": "^7.4",
         "lullabot/amp": "1.1.*",
-        "symfony/framework-bundle": "^3.4 || ^4.1",
-        "symfony/twig-bundle": "^3.4 || ^4.1"
+        "symfony/framework-bundle": "^5.0",
+        "symfony/twig-bundle": "^5.0"
     },
     "require-dev": {
-        "phpspec/phpspec": "^5.1",
+        "phpspec/phpspec": "^7.0.0",
         "sebastian/comparator": "^3.0"
     },
     "autoload": {
